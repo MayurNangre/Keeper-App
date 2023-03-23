@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=EB+Garamond:ital,wght@1,600&family=Montserrat&family=Pacifico&family=Slabo+27px&family=Source+Serif+4:opsz,wght@8..60,300&family=Ubuntu&display=swap');
+
+
+body{
+   overflow: hidden;
+   margin: 0;
+   background-color: #eee;
+}
+
+/* - --------------Heading--------------- */
+
+.keeperheading{
+   height: 80px;
+   background-color: rgb(255, 255, 0);
+   display: flex;
+   align-items: center;
+   font-family: 'Montserrat', sans-serif;
+}
+.keeperheading h1{
+   margin-left: 50px;
+   color: white;
+}
+
+
+/* -----------createarea------------- */
+.formcontent{
+   display: flex;
+   justify-content: center;
+}
+form{
+   width: 400px;
+   border-radius: 5px;
+   box-shadow: 0 2px 5px #ccc;
+   background-color: #fff;
+   padding: 10px;
+   margin-bottom: auto;
+   margin-top: 30px;
+   display: flex;
+   flex-direction: column;
+}
+form input,textarea{
+   margin-bottom: 15px;
+   border-style: none; 
+   border-color: Transparent; 
+   font-size: 15px;
+}
+
+form button{
+   width: 100px;
+   border-radius: 5px;
+   background-color: rgb(255, 255, 0);
+   color: black;
+   border-style: none;
+   height: 25px;
+}
+
+/* ----------- Note app ------------- */
+
+/* .notecards{
+   height: 60%;
+   margin: 2%;
+   
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+   grid-gap: 20px;
+   height: auto;
+} */
+
+.array{
+   height: 60%;
+   margin: 2%;
+   
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+   grid-gap: 20px;
+   /*grid-template-rows: auto;*/
+   height: auto;
+}
+
+.note{
+   border-radius: 5px;
+    
+   box-shadow: 0 2px 5px #ccc;
+   background-color: #fff;
+   padding: 10px;
+   margin-bottom: auto;
+}
+.title{
+   font-size: 20px;
+   font-weight: 600;
+}
+.content{
+   font-size: 20px;
+}
+.note button{
+   margin-top: 10px;
+   color: rgb(255, 255, 0);
+   border-style: none;
+   background-color: #fff;
+   font-size: 15px;
+   font-weight: 500;
+}
+
+
+/* -----------------Footer --------------- */
+
+.footer{
+   margin-top: 350px;
+}
+.footer p{
+   text-align: center;
+   color: rgba(128, 128, 128, 0.579);
+   font-size: 20px;
+}
+
+
+/* ----------Login app ---------- */
+
+.loginapp{
+
+   background-color: rgba(255, 228, 196, 0.36);
+   height: 700px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.loginappbutton div{
+   display: flex;
+   flex-direction: column;
+   row-gap: 20px;
+}
+
+.loginappinputs{
+   width: 250px;  
+   height: 40px; 
+   border-radius: 5px;
+   text-align: center;
+   box-sizing: border-box;
+}
